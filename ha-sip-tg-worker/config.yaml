@@ -3,13 +3,12 @@ name: SIP.TG worker plugin
 version: "0.1.0"
 slug: ha-sip-tg-worker
 description: HA SIP.TG worker plugin
-url: "https://github.com/targs08/ha-sip.tg-worker/tree/main"
+url: "https://github.com/targs08/ha-sip.tg-worker/tree/main/ha-sip-tg-worker"
 arch:
   - armhf
   - armv7
   - aarch64
   - amd64
-  - i386
 init: false
 
 # Docker configuration
