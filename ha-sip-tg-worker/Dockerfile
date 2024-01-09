@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 siptg/worker:latest
+FROM siptg/worker:latest
 
 COPY worker/yate/conf/ /etc/yate-config/ 
 COPY run.sh /
