@@ -1,0 +1,10 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
+# build_from:
+#   aarch64: "siptg/worker:official"
+#   amd64: "siptg/worker:official"
+#   armhf: "siptg/worker:official"
+#   armv7: "siptg/worker:official"
+labels:
+  org.opencontainers.image.title: "Home Assistant Add-on: SIP.TG Worker plugin"
+  org.opencontainers.image.source: "https://github.com/targs08/ha-sip.tg-worker/"
+  org.opencontainers.image.licenses: "Apache License 2.0"

@@ -1,0 +1,22 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: HA SIP.TG worker plugin
+version: "0.1.0"
+slug: ha-sip-tg-worker
+description: HA SIP.TG worker plugin
+url: "https://github.com/targs08/ha-sip.tg-worker/tree/main"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+
+# Docker configuration
+image: "siptg/worker:official"
+host_network: true
+tmpfs: true
+realtime: true
+advanced: true
+map: 
+  - addon_config:ro
