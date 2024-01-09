@@ -1,5 +1,5 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: HA SIP.TG worker plugin
+name: SIP.TG worker plugin
 version: "0.1.0"
 slug: ha-sip-tg-worker
 description: HA SIP.TG worker plugin
