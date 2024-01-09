@@ -11,8 +11,6 @@ arch:
   - amd64
 init: false
 
-# Docker configuration
-image: "siptg/worker:official"
 host_network: true
 tmpfs: true
 realtime: true
