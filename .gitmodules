@@ -1,0 +1,3 @@
+[submodule "worker"]
+	path = ha-sip-tg-worker/worker
+	url = https://github.com/siptg/worker
