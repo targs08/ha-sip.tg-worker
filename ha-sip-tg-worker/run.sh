@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 PLUGIN_DIR="/config"
@@ -23,4 +22,4 @@ fi
 
 cp /config/yate/*.conf /etc/yate/
 
-exec "$@" 
+exec "$@"
