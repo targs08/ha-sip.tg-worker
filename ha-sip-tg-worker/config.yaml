@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: SIP.TG worker plugin
-version: "0.1.1"
+version: "0.1.2"
 slug: ha-sip-tg-worker
 description: HA SIP.TG worker plugin
 url: "https://github.com/targs08/ha-sip.tg-worker/tree/main/ha-sip-tg-worker"
@@ -16,4 +16,4 @@ tmpfs: true
 realtime: true
 advanced: true
 map: 
-  - addon_config:ro
+  - addon_config:rw
